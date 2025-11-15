@@ -5,7 +5,13 @@ Open Graph Meta API (Image, OG, etc)
 
 A lightweight Flask service that extracts Open Graph (`og:*`) metadata from URLs, such as `og:image`, `og:title`, and `og:description`. It intelligently caches HTML (60 days) and metadata (permanent) to optimize performance and reduce redundant requests.
 
-Supports fallback browser impersonation for sites with bot detection.
+Supports fallback "curl" browser impersonation for sites with bot detection.
+
+Version 2 is also available for Advance Users.
+It has more features like multiple urls checking.
+
+![v2](v2.45.png)
+
 
 ---
 

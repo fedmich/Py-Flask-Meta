@@ -42,3 +42,5 @@ response = requests.post('http://localhost:5000/meta', data={
 })
 print(response.json()['og:image'])
 ```
+
+☕ [Buy me a coffee](https://www.buymeacoffee.com/fedmich)   
